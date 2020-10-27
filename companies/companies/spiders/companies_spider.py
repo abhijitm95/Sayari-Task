@@ -164,7 +164,7 @@ def graph_plot(graph_df):
     owner_dict = dict(zip(owners, owners))
     nx.draw_networkx_labels(G, layout, labels=owner_dict)
     plt.axis('off')
-#    plt.show()
+    plt.show()
     plt.savefig('graph_plot.png')
 
 graph_df=final_file('D:/Python/Sayari/companies/companies/company_info.csv',
